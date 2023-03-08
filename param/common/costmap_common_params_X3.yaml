@@ -5,7 +5,7 @@ footprint: [[-0.117, -0.1], [-0.117, 0.1], [0.117, 0.1], [0.117, -0.1]]
 #robot_radius: 0.105
 
 # 膨胀半径
-inflation_radius: 0.3
+inflation_radius: 0.1
 cost_scaling_factor: 3.0
 
 map_type: costmap
