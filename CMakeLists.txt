@@ -6,7 +6,8 @@ project(yahboomcar_nav)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
-## is used, also find other catkin packages
+## is used, also find other catkin packages  
+
 find_package(catkin REQUIRED COMPONENTS
         roscpp
         rosmsg
@@ -157,6 +158,8 @@ add_executable(save src/save_map.cpp)
 target_link_libraries(save ${catkin_LIBRARIES})
 add_executable(rrt_save_map src/rrt_save_map.cpp)
 target_link_libraries(rrt_save_map ${catkin_LIBRARIES})
+
+
 
 #############
 ## Install ##

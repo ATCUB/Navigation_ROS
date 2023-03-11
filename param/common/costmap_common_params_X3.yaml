@@ -6,7 +6,7 @@ footprint: [[-0.117, -0.1], [-0.117, 0.1], [0.117, 0.1], [0.117, -0.1]]
 
 # 膨胀半径
 inflation_radius: 0.1
-cost_scaling_factor: 3.0
+cost_scaling_factor: 10.0
 
 map_type: costmap
 
