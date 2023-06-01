@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/jetson/ROS/X3/yahboomcar_ws/devel/include/**",
+        "/home/jetson/software/library_ws/devel/include/**",
+        "/home/jetson/yahboomcar_ws/devel/include/**",
+        "/home/jetson/software/world_canvas/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/jetson/software/library_ws/src/ros_astra_camera/include/**",
+        "/home/jetson/software/library_ws/src/imu_calib/include/**",
+        "/home/jetson/software/library_ws/src/imu_filter_madgwick/include/**",
+        "/home/jetson/software/library_ws/src/open_karto-melodic-devel/include/**",
+        "/home/jetson/software/library_ws/src/opencv_apps/include/**",
+        "/home/jetson/software/library_ws/src/robot_localization/include/**",
+        "/home/jetson/software/library_ws/src/rrt_exploration/include/**",
+        "/home/jetson/software/library_ws/src/turtlebot3_gazebo/include/**",
+        "/home/jetson/software/world_canvas/src/warehouse_ros/include/**",
+        "/home/jetson/software/world_canvas/src/warehouse_ros_mongo/include/**",
+        "/home/jetson/software/world_canvas/src/world_canvas_libs/world_canvas_client_cpp/include/**",
+        "/home/jetson/yahboomcar_ws/src/yahboomcar_astra/include/**",
+        "/home/jetson/yahboomcar_ws/src/yahboomcar_bringup/include/**",
+        "/home/jetson/yahboomcar_ws/src/yahboomcar_slam/include/**",
+        "/home/jetson/yahboomcar_ws/src/yahboomcar_voice_ctrl/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

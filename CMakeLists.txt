@@ -158,6 +158,10 @@ add_executable(save src/save_map.cpp)
 target_link_libraries(save ${catkin_LIBRARIES})
 add_executable(rrt_save_map src/rrt_save_map.cpp)
 target_link_libraries(rrt_save_map ${catkin_LIBRARIES})
+add_executable(pose src/pose.cpp)  
+target_link_libraries(pose ${catkin_LIBRARIES})  
+
+
 
 
 

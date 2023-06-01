@@ -3,8 +3,8 @@
 #include <string.h>
 #include <iostream>
 #include <stdlib.h>
-#include <nav_msgs/Odometry.h>
-#include <geometry_msgs/PoseStamped.h>
+#include <nav_msgs/Odometry.h> #里程计信息 
+#include <geometry_msgs/PoseStamped.h>#位置信息 
 #include <geometry_msgs/PointStamped.h>
 
 class RRT_save_map {
